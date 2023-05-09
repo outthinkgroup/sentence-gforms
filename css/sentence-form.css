@@ -1,0 +1,10 @@
+.gform-body:has(template){
+	height:0!important;	
+	position:absolute;
+	top:-999999px;
+}
+
+input:is([type=text],[type=email]), select {
+	border:none;
+	border-bottom:1px solid currentColor;
+}
